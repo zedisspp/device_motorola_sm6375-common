@@ -273,7 +273,7 @@ PRODUCT_PACKAGES += \
 
 # Power
 PRODUCT_PACKAGES += \
-    android.hardware.power-service-qti
+    android.hardware.power-service.lineage-libperfmgr
 
 # Properties
 PRODUCT_VENDOR_PROPERTY_BLACKLIST := \
@@ -290,8 +290,10 @@ PRODUCT_PACKAGES += \
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-    hardware/motorola \
-    hardware/samsung
+    hardware/google/interfaces \
+    hardware/google/pixel \
+    hardware/lineage/interfaces/power-libperfmgr \
+    hardware/motorola
 
 # Telephony
 PRODUCT_PACKAGES += \
