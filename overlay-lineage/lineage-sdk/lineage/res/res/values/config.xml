@@ -5,7 +5,7 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <resources>
-    <!-- Whether device has screen with higher aspect ratio -->
+    <!-- Whether device has a screen with a higher aspect ratio -->
     <bool name="config_haveHigherAspectRatioScreen">true</bool>
 
     <!-- Defines the actions shown in advanced reboot submenu -->
