@@ -192,14 +192,6 @@ PRODUCT_COPY_FILES += \
 # Kernel
 PRODUCT_ENABLE_UFFD_GC := true
 
-# LiveDisplay
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay-service.sdm \
-    vendor.lineage.livedisplay-service.sysfs
-
-$(call soong_config_set_bool,livedisplay_sdm,enable_dm,false)
-$(call soong_config_set_bool,livedisplay_sysfs,enable_se,true)
-
 # Lineage Health
 PRODUCT_PACKAGES += \
     vendor.lineage.health-service.default
