@@ -1,0 +1,27 @@
+From 9b789df199c603f5f0bec8445a87b2f0495761a2 Mon Sep 17 00:00:00 2001
+From: Alex Sarraf <quic_asarraf@quicinc.com>
+Date: Sat, 17 Aug 2024 22:46:31 +0530
+Subject: [PATCH] sm6375-common: display: Set debug.sf.auto_latch_unsignaled to
+ 0
+
+Need to explicitly set auto_latch_unsignaled property to
+disabled state to keep latch-unsignaled as the default
+behavior.
+
+Change-Id: I3856caaf0a68e7e720819f25338d1eb9196f56b0
+---
+ vendor.prop | 1 +
+ 1 file changed, 1 insertion(+)
+
+diff --git a/vendor.prop b/vendor.prop
+index 64df4e3e..ce71d163 100644
+--- a/vendor.prop
++++ b/vendor.prop
+@@ -289,6 +289,7 @@ ro.soc.manufacturer=QTI
+ debug.stagefright.c2inputsurface=-1
+ 
+ # Surfaceflinger
++debug.sf.auto_latch_unsignaled=0
+ debug.sf.disable_client_composition_cache=1
+ debug.sf.early.app.duration=13666666
+ debug.sf.early.sf.duration=10500000
