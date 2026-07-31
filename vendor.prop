@@ -224,6 +224,9 @@ persist.vendor.ims.vt.enableadb=1
 # Incremental FS
 ro.incremental.enable=true
 
+# Game FrameRate
+debug.graphics.game_default_frame_rate.disabled=true
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
