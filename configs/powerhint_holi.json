@@ -323,19 +323,19 @@
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "1651200"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "1708800"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "UclampTAMin",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "100"
     },
     {
@@ -347,73 +347,73 @@
     {
       "PowerHint": "INTERACTION",
       "Node": "UclampFgMin",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "50"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "GPUMinFreq",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "1"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBWHystTriggerCount",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "0"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBWHystLength",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "0"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBWHistMemory",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "0"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUBWMinFreq",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "5161"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUDDRLatLittleMinFreq",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "7980"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUDDRLatBigMinFreq",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "7980"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUDDRLatfloorLittleMinFreq",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "7980"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "CPUDDRLatfloorBigMinFreq",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "7980"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "L3LittleClusterMinFreq",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "1171200000"
     },
     {
       "PowerHint": "INTERACTION",
       "Node": "L3BigClusterMinFreq",
-      "Duration": 1500,
+      "Duration": 3000,
       "Value": "1171200000"
     },
     {
@@ -443,109 +443,109 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMaxFreq",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "UclampTAMin",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "100"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "UclampFgMin",
-      "Duration": 2000,
-      "Value": "50"
+      "Duration": 3000,
+      "Value": "100"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWHystTriggerCount",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWHystLength",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWHistMemory",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWMinFreq",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "7980"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUDDRLatLittleMinFreq",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "7980"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUDDRLatBigMinFreq",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "7980"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUDDRLatfloorLittleMinFreq",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "7980"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUDDRLatfloorBigMinFreq",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "7980"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUForceClkOn",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUForceRailOn",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUIdleTimer",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "10000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "L3LittleClusterMinFreq",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "1459200000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "L3BigClusterMinFreq",
-      "Duration": 2000,
+      "Duration": 3000,
       "Value": "1459200000"
     },
     {
@@ -636,7 +636,7 @@
       "PowerHint": "GAME_LOADING",
       "Node": "CPULittleClusterMinFreq",
       "Duration": 0,
-      "Value": "9999999"
+       "Value": "9999999"
     },
     {
       "PowerHint": "GAME",
@@ -648,7 +648,7 @@
       "PowerHint": "GAME",
       "Node": "CPULittleClusterMinFreq",
       "Duration": 0,
-      "Value": "9999999"
+       "Value": "9999999"
     },
     {
       "PowerHint": "GAME",
