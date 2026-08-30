@@ -161,6 +161,7 @@ dalvik.vm.heapstartsize=8m
 dalvik.vm.heaptargetutilization=0.75
 
 # Display
+debug.renderengine.blur_algorithm=kawase2
 vendor.display.comp_mask=0
 vendor.display.disable_dynamic_sf_idle=1
 vendor.display.disable_excl_rect=0
