@@ -521,5 +521,9 @@ firmware_directories /vendor/firmware_mnt/image/
 # socinfo
 /sys/devices/soc0                                       serial_number                   0000    root    root
 
-# NFC ST Driver permissions
+/dev/st21nfc              0660   nfc        nfc# NFC ST Driver permissions
 /dev/st21nfc              0660   nfc        nfc
+
+# Torch control
+/sys/devices/platform/soc/5c1b000.qcom,cci0/5c1b000.qcom,cci0:qcom,camera-flash@0 torch_brightness 0660 cameraserver camera
+/sys/devices/platform/soc/5c1b000.qcom,cci0/5c1b000.qcom,cci0:qcom,camera-flash@2 torch_brightness 0660 cameraserver camera
