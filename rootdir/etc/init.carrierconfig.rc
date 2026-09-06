@@ -1,2 +1,0 @@
-on property:sys.boot_completed=1
-    exec - root root -- /system/bin/cmd phone cc set-value -p KEY_INFLATE_SIGNAL_STRENGTH_BOOL true

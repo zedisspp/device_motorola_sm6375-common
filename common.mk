@@ -386,6 +386,3 @@ $(call inherit-product, vendor/motorola/sm6375-common/sm6375-common-vendor.mk)
 # Viper4Android FX
 $(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
 
-# CarrierConfigManager
-PRODUCT_COPY_FILES += \
-    device/motorola/sm6375-common/rootdir/etc/init.carrierconfig.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.carrierconfig.rc
