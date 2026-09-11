@@ -1,0 +1,2 @@
+allow hal_camera_default sysfs_torch:dir search;
+allow hal_camera_default sysfs_torch:file rw_file_perms;

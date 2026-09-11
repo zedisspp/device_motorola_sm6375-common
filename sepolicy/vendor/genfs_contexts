@@ -1,0 +1,3 @@
+# Torch control
+genfscon sysfs /devices/platform/soc/5c1b000.qcom,cci0/5c1b000.qcom,cci0:qcom,camera-flash@0/torch_brightness u:object_r:sysfs_torch:s0
+genfscon sysfs /devices/platform/soc/5c1b000.qcom,cci0/5c1b000.qcom,cci0:qcom,camera-flash@2/torch_brightness u:object_r:sysfs_torch:s0
