@@ -104,7 +104,7 @@ DEVICE_MANIFEST_FILE += $(COMMON_PATH)/manifest.xml
 BOARD_USES_METADATA_PARTITION := true
 
 # Partitions
--include vendor/lineage/config/BoardConfigReservedSize.mk
+-include vendor/clover/config/BoardConfigReservedSize.mk
 BOARD_EROFS_COMPRESSOR := lz4
 BOARD_EROFS_PCLUSTER_SIZE := 262144
 BOARD_BOOTIMAGE_PARTITION_SIZE := 100663296
@@ -143,7 +143,7 @@ TARGET_RECOVERY_WIPE := $(COMMON_PATH)/recovery/recovery.wipe
 ENABLE_VENDOR_RIL_SERVICE := true
 
 # SELinux
-include device/lineage/sepolicy/libperfmgr/sepolicy.mk
+include device/clover/sepolicy/libperfmgr/sepolicy.mk
 include device/qcom/sepolicy_vndr/SEPolicy.mk
 include hardware/motorola/sepolicy/qti/SEPolicy.mk
 BOARD_VENDOR_SEPOLICY_DIRS += $(COMMON_PATH)/sepolicy/vendor
