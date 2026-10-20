@@ -62,7 +62,7 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries-qti.txt:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/public.libraries-qti.txt
 
 # DolbyAtmos
-$(call inherit-product, hardware/motorola/dolby/dolby.mk)
+$(call inherit-product, hardware/dolby/dolby.mk)
 
 # Audio
 PRODUCT_PACKAGES += \
