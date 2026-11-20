@@ -367,3 +367,6 @@ PRODUCT_COPY_FILES += \
 
 # Inherit from vendor blobs
 $(call inherit-product, vendor/motorola/sm6375-common/sm6375-common-vendor.mk)
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/vibrator/init.vibrator_tuning.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.vibrator_tuning.rc
